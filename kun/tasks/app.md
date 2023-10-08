@@ -577,3 +577,33 @@ export interface PostType {
 
 !!!note
 Check the usePostEditor hook to know how it handles the post-creation.
+
+
+
+---
+
+## Adding add an image to the program creation.
+
+Once the user creates a program, the user should be able to add an image to the program.
+
+### Expected Outcome
+
+- The user should be able to add an image to the program.
+- For now just add the button to add an image, and the image should be shown in the program creation screen.
+- The image should be uploaded to the backend.
+
+
+### Help
+
+- Use `useImageProvider` hook to upload the image check it in the `PostEditor` component to know how to use it.
+- Look at the `PostEditor` component to know how to create the UI for title, description, and image.
+- Check how the `PostEditor` component handles the image upload.
+
+---
+
+## On click convert the earning to credit in the app menu should open the buy credit screen.
+
+When the user clicks on convert the earning to credit in the app menu should open the buy credit screen.
+
+---
+

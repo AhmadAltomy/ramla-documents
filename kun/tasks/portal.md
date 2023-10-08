@@ -179,3 +179,55 @@ The Product UI in the portal should be able to create, read, update, and delete 
 - Use the same structure as the other pages in the portal.
 - The files, code, and UI should be clean and readable.
 - Lint the code before pushing it, and fix the lint errors.
+
+
+---
+
+## Fix Create Product UI in the portal to use pre-defined discount percent
+
+Once the product discount type is selected as percent, the discount percent should be selected from a pre-defined list like the Product Page.
+
+### Expected Outcome
+
+- On selecting the discount type as percent.
+- The discount percent should be selected from a pre-defined list like the Product Page.
+
+
+### Tasks
+
+- [ ] Add the discount percent pre-defined list to the Product Add Form.
+- [ ] Must be like the Product Page.
+
+
+---
+
+## On edit a product with discount should be appear in the product page.
+
+The product page now is not showing the discount percent for the product if has a discount when edit the product.
+
+### Expected Outcome
+
+- On edit a product with discount should be appear in the product page.
+  
+
+### Tasks
+
+- [ ] Add the discount percent to the Product Page.
+- [ ] Must be like the Product Add Form.
+
+### Test Cases
+
+Case 1:
+- [ ] Create a product with discount.
+- [ ] Go to the product page.
+- [ ] Press on edit button.
+- [ ] The discount percent should be appear in the product page.
+
+Case 2:
+- [ ] Create a product without discount.
+- [ ] Go to the product page.
+- [ ] Press on edit button.
+- [ ] The discount percent should not be appear in the product page.
+
+---
+
