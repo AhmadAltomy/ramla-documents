@@ -64,6 +64,15 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "jira",
+        path: "jira",
+        routeBasePath: "jira",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ]
   ],
   themeConfig:
     /** @type {import("@docusaurus/preset-classic").ThemeConfig} */
@@ -91,6 +100,11 @@ const config = {
             position: "left",
             label: "Templates",
             to: "/templates",
+          },
+          {
+            position: "left",
+            label: "Jira",
+            to: "/jira",
           },
           {
             position: "left",
